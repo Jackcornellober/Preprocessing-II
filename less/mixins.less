@@ -1,1 +1,15 @@
 // Mixins in here
+
+.flexify(@justify: space-between ,@direction: row) {
+    display: flex;
+    justify-content: @justify;
+    flex-direction: @direction;
+    align-items: center;
+}
+
+.buttonStyle(@width,@height,@background,@color) {
+    width: @width;
+    height: @height;
+    background: @background;
+    color: @color;
+}
